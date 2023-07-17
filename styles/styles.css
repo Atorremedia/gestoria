@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Open Sans");
+
+
+.contact-information-001 .contact-information-address a {
+text-transform: lowercase;
+}
+.multicolumnbox-icoUpNoButton ul li .multicolumnbox-item p {
+line-height: 22px;
+height: 100px;
+}
+.header-001 .top-bar, .header-001 .logo-header, .header-002 .top-bar, .header-003 .logo-header {
+background-color: #fff;
+}
+.header-002 .menu-bar .menu-sections li.dropdown .dropdown-menu li a {
+background-color: #64b2c1;
+}
+.header-002 .top-bar .navigation .dropdown .dropdown-menu li a {
+background: #f0cda1;
+}
+.header-002 .menu-bar .header-logo img {
+height: 80px;
+}
+.form-control {
+margin-top: 15px;
+}
+.header-002 .menu-bar .min-searcher button {
+margin-top: 15px;
+}
+.header-mobile .navbar-nav >.open a {
+background-color: #64b2c1;
+}
+.header-mobile .logo-header,
+.header-mobile .navbar-default,
+[class^=header-00] .menu-bar,
+.header-mobile .navbar-default .navbar-toggle:hover,
+.header-mobile .navbar-default .navbar-toggle:focus{
+    background-color:#007084 !important;    }
+[class^=header-00] a,
+[class^=header-00] a span,
+[class^=header-00] li a,
+[class^=header-00] .menu-sections li a,
+[class^=header-00] li svg,
+[class^=header-00] .top-bar li svg,
+[class^=header-00] li svg *,
+[class^=header-00] .top-bar li svg *,
+[class^=header-00] p,
+.header-mobile a,
+.header-mobile a span,
+.header-mobile li a,
+.header-mobile .menu-sections li a,
+.header-mobile li svg,
+.header-mobile .top-bar li svg,
+.header-mobile li svg *,
+.header-mobile .top-bar li svg *,
+.header-mobile p{
+            color:#FFFFFF !important;    }
+.header-mobile button{
+    color:#FFFFFF !important;    }
+.header-mobile .navbar-default .navbar-toggle:hover .icon-bar,
+.header-mobile .navbar-default .navbar-toggle:focus .icon-bar,
+.header-mobile .navbar-default .navbar-toggle .icon-bar{
+    background-color:#FFFFFF !important;    }
+[class^=header-00] li svg,
+.header-mobile li svg,
+[class^=header-00] li svg *,
+[class^=header-00] .top-bar svg,
+[class^=header-00] .top-bar svg *,
+.header-mobile li svg *,
+.header-mobile .navbar-nav .searcher + button svg, .header-mobile .navbar-nav .searcher + button svg *{
+    fill:#FFFFFF !important;    }
+.header-mobile .navbar-nav .searcher{
+    border:solid 1px #007084 !important;    }
+/*header-001, header-002, header-003, header-004, header-005, header-006, header-008, header-009, header-010*/
+.header-001 .top-bar li svg,
+.header-001 .top-bar li svg *,
+.header-001 .top-bar a svg,
+.header-001 .top-bar a svg *,
+.header-002 .top-bar li svg,
+.header-002 .top-bar li svg *,
+.header-002 .top-bar a svg,
+.header-002 .top-bar a svg *{
+    fill:#007084 !important;    }
+.header-001 .top-bar a,
+.header-001 .top-bar a span,
+.header-001 .top-bar li a,
+.header-001 .top-bar .menu-sections li a,
+.header-001 .top-bar li svg,
+.header-001 .top-bar li svg *,
+.header-001 .top-bar a svg,
+.header-001 .top-bar a svg *,
+.header-002 .top-bar a,
+.header-002 .top-bar a span,
+.header-002 .top-bar li a,
+.header-002 .top-bar .menu-sections li a,
+.header-002 .top-bar li svg,
+.header-002 .top-bar li svg *,
+.header-002 .top-bar a svg,
+.header-002 .top-bar a svg *{
+    color:#007084 !important;    }
+.header-001 .top-bar,
+.header-001 .logo-header,
+.header-002 .top-bar,
+.header-003 .logo-header{
+    border-bottom:solid 2px #007084 !important;    }
+.header-004 .subheader,
+.header-005 .logo-header,
+.header-006 .logo-header,
+.header-008 > div,
+.header-008 .toolbar,
+.header-008 .mobile-menu-container.in{
+    background-color:#007084 !important;    }
+.header-007 .navbar-toggle .icon-bar,
+.header-008 .navbar-toggle .icon-bar{
+    background-color:#FFFFFF !important;    }
+.header-007 .social-networks li a,
+.header-008 .social-networks li a{
+    font-size: 15px !important;
+}
+.header-008 .social-networks li a span{
+        }
+.header-008 .social-networks svg,
+.header-008 .social-networks svg * {
+    fill: #fff !important;
+}
+.header-008 .social-networks li a{
+    background-color: transparent;
+    border: none;
+}
+.header-008 .social-networks li a:hover{
+    background-color: transparent;
+}
+.text-carousel {
+    color: rgb(240, 205, 161) !important;
+    font-size: 36px !important;
+}
+text-carousel-mobile {
+    color: #f0cda1 !important; 
+}
+.front-image {
+    width: 100%;
+    height: 580px;
+    margin-top: 2px;
+    background-image: url(../img/lab.jpg);
+    background-size: cover;
+}
