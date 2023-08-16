@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open Sans");
 
+header {
+    position: sticky;
+    top: -7rem;
+    z-index: 50;
+}
 
 .contact-information-001 .contact-information-address a {
 text-transform: lowercase;
@@ -116,8 +121,7 @@ background-color: #64b2c1;
 .header-008 .social-networks li a{
     font-size: 15px !important;
 }
-.header-008 .social-networks li a span{
-        }
+
 .header-008 .social-networks svg,
 .header-008 .social-networks svg * {
     fill: #fff !important;
@@ -138,8 +142,11 @@ text-carousel-mobile {
 }
 .front-image {
     width: 100%;
-    height: 580px;
-    margin-top: 2px;
+    height: 475px;
     background-image: url(../img/lab.jpg);
     background-size: cover;
+}
+.header-002 .top-bar {
+    font-size: 17px;
+    height: 6.5rem;
 }
