@@ -519,8 +519,7 @@ a:focus {
   border-bottom: 1px solid #007084;
 }
 .header-002 .top-bar .navigation .dropdown .dropdown-menu li a {
-  background: #64B2C1;
-  color: #FFFFFF;
+  background: #E3D5BD;
 }
 .header-002 .top-bar .navigation .dropdown .dropdown-menu li.active a {
   background: #052227;
