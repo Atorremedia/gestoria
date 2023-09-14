@@ -16,11 +16,9 @@ height: 100px;
 .header-001 .top-bar, .header-001 .logo-header, .header-002 .top-bar, .header-003 .logo-header {
 background-color: #fff;
 }
-.header-002 .menu-bar .menu-sections li.dropdown .dropdown-menu li a {
-background-color: #64b2c1;
-}
+
 .header-002 .top-bar .navigation .dropdown .dropdown-menu li a {
-background: #f0cda1;
+background: #EAD9C4;
 }
 .header-002 .menu-bar .header-logo img {
 height: 80px;
