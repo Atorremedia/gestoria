@@ -241,9 +241,9 @@
                 <!-- Menu bar: BOC -->
                 <div class="container-fluid menu-bar">
                     <div class="container active">
-                        <a class="header-logo" href="https://atorremedia.github.io/gestoria/">
+                        <a class="header-logo" href="https://lauraliron.com/">
                             <h1 class="header-logo-seo">
-                                <img src="../img/LLLogoTrazColorAj.svg" alt="Gestoria Administrativa i Assessoria per a empreses i autònoms">
+                                <!-- <img src="../img/LLLogoTrazColorAj.svg" alt="Gestoria Administrativa i Assessoria per a empreses i autònoms"> -->
                                 <span class="sr-only">Gestoria Administrativa i Assessoria per a empreses i autònoms</span>
                             </h1>
                         </a>
@@ -319,8 +319,8 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                                <a class="navbar-brand" href="https://atorremedia.github.io/gestoria/">
-                                    <img src="../LLLogoTrazColorAj.svg" class="img-responsive" alt="Gestoria Administrativa i Assessoria per a empreses i autònoms">
+                                <a class="navbar-brand" href="https://lauraliron.com/">
+                                    <!-- <img src="../LLLogoTrazColorAj.svg" class="img-responsive" alt="Gestoria Administrativa i Assessoria per a empreses i autònoms"> -->
                                     <span class="sr-only">Inicio</span>
                                 </a>
                         </div>
@@ -825,7 +825,7 @@
 	                <div class="container">
 		                <div class="row">
 			                <div class="col-sm-4 col-md-6 active">
-				                <a href="https://atorremedia.github.io/gestoria/">
+				                <a href="https://lauraliron.com/">
                                     <img class="logo-footer" src="../img/LLLogoTrazColorAj.svg" alt="Footer logo">
 				                </a>
 			                </div>
@@ -889,13 +889,13 @@
                                     <br>
                                     Accediendo a la política de cookies siempre podrás visualizar este banner que te permite configurar o rechazar las cookies.                            <br>
                                     Puedes aceptar todas las cookies pulsando el botón “Aceptar” o configurarlas o rechazar su uso pulsando el botón "Configurar".                        </p>
-                                <button id="_efl_cookies_accepted" onclick="handle_btn_config('accept')" data-cookies="all" type="submit" class="btn btn-default js-accept-button mT10">Aceptar</button>
-                                <button id="_efl_cookies_config" type="submit" class="btn btn-default mT10" onclick="handle_btn_config('setUp')" style="display: inline-block;">Configurar</button>
-                                <button id="js_efl_cookies_reject" class="btn btn-default mT10" onclick="jsRejectCookies()" style="display: inline-block;">Rechazar</button>
+                                    <button id="_efl_cookies_accepted" onclick="AcceptAllCookies()" data-cookies="all" type="submit" class="btn btn-default js-accept-button mT10">Aceptar</button>
+                                    <button id="_efl_cookies_config" type="submit" class="btn btn-default mT10" onclick="ConfigureCookies()" style="display: inline-block;">Configurar</button>
+                                    <button id="js_efl_cookies_reject" class="btn btn-default mT10" onclick="RejectCookies()" style="display: inline-block;">Rechazar</button>
                             </div>
                             <div id="js_cookie_panel" style="display: none;">
                                 <p>
-                                    <img src="../img/close-white.png" alt="Close" class="pull-right js-newsFilter-body-closer cursor-pointer" id="svg_close" onclick="handle_btn_config('close')" style="margin-left: 20px;">
+                                    <!-- <img src="../img/close-white.png" alt="Close" class="pull-right js-newsFilter-body-closer cursor-pointer" id="svg_close" onclick="handle_btn_config('close')" style="margin-left: 20px;"> -->
                                     Esta página web utiliza cookies tanto propias como de terceros para analizar nuestros servicios y la navegación en nuestra página web con el fin de mejorar los contenidos de la misma (fines analíticos: medir visitas y fuentes de tráfico web). La base legal es el consentimiento del usuario, salvo en el caso de las cookies básicas, que son imprescindibles para navegar por esta web.                            <br>
                                     Accediendo a la política de cookies siempre podrás visualizar este banner que te permite configurar o rechazar las cookies.                            <br>
                                     Puedes aceptar todas las cookies pulsando el siguiente botón: <br><button id="_efl_cookies_accepted" data-cookies="all" type="submit" class="btn btn-default js-accept-button mT10" onclick="handle_btn_config('accept')">Aceptar todas las cookies y seguir navegando</button>
@@ -919,7 +919,7 @@
                                 <div class="clearfix"></div>
                                 Permiten cuantificar el número de usuarios y examinar su navegación, pudiendo así medir y analizar estadísticamente la utilización que se hace de la web, con el fin de mejorar los contenidos y el servicio a través de ella. Pueden ser cookies propias o de terceros. Si no se aceptan, simplemente no se llevará a cabo el análisis indicado.                        <div class="clearfix"></div><br>
                                 Al pulsar “Guardar preferencias y seguir navegando”, se guardará la selección de cookies que haya realizado. Si no ha seleccionado ninguna opción, pulsar este botón equivaldrá a rechazar todas las cookies.                        <br><br>
-                                <button id="_efl_cookies_save_config" onclick="handle_btn_config('accept')" data-cookies="config" type="submit" class="btn btn-default js-accept-button mT10">Guardar preferencias y seguir navegando</button>
+                                <button id="_efl_cookies_save_config" onclick="AcceptAllCookies()" data-cookies="config" type="submit" class="btn btn-default js-accept-button mT10">Guardar las preferencias y continuar navegando</button>
                             </div>
                         </div>
                     </div>
@@ -948,16 +948,17 @@
             <script type="text/javascript" src="../js/datatables.min.js"></script>
             <script type="text/javascript" src="../js/menu-v2.js"></script>
             <script type="text/javascript" src="../js/footer-v2.js"></script>
-            <script type="text/javascript" src="../js/ledCore.js"></script>
+            <!-- <script type="text/javascript" src="../js/ledCore.js"></script> -->
             <script type="text/javascript" src="../js/all.min.js"></script>
             <script type="text/javascript" src="../js/engine.js"></script>
-            <script type="text/javascript" src="../js/owl.carousel.js"></script>
+            <!-- <script type="text/javascript" src="../js/owl.carousel.js"></script> -->
             <script type="text/javascript" src="../js/date.js"></script>
-            <script type="text/javascript" src="../js/agendaCalendarEditor2.js"></script>
+            <!-- <script type="text/javascript" src="../js/agendaCalendarEditor2.js"></script> -->
             <script type="text/javascript" src="../js/contentListCarousel.js"></script>
-            <script type="text/javascript" src="../js/menu.js"></script>
+            <!-- <script type="text/javascript" src="../js/menu.js"></script> -->
             <script type="text/javascript" src="../js/google_maps.js"></script>
-            <script type="text/javascript" src="../js/application.js"></script>
+            <!-- <script type="text/javascript" src="../js/application.js"></script> -->
+            <script type="text/javascript" src="../js/cookieManager.js"></script>
             <!-- <script key="6e6a16ee-e0b0-46cc-b555-68c71edc8b9d" src="../js/bundle.js"></script> -->
         </div>
     </body>
